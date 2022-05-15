@@ -1,0 +1,90 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4b9d1a791e3efb16238bbb9b5f8a74c7",
+    "packages": [
+        {
+            "name": "zubzet/framework",
+            "version": "dev-feature/composer",
+            "dist": {
+                "type": "path",
+                "url": "../framework",
+                "reference": "f59141ca4f7904a4ecb9e84090c9dde654c18e9b"
+            },
+            "require": {
+                "php": ">=8.0",
+                "zubzet/password-hash-utilities": "1.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZubZet\\": "src/ZubZet/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Alexander Zierhut",
+                    "email": "alex@zierhut-it.de",
+                    "homepage": "https://alzlper.com"
+                },
+                {
+                    "name": "Adrian Urban",
+                    "email": "adrian.urban@zierhut-it.de"
+                }
+            ],
+            "support": {
+                "email": "info@zierhut-it.de",
+                "wiki": "https://docs.zubzet.de"
+            },
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "zubzet/password-hash-utilities",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.zierhut-it.de/zubzet/password-hash-utilities.git",
+                "reference": "eb0bdabf3cd8814a75327334afc9bb312749bde5"
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "li",
+            "autoload": {
+                "psr-4": {
+                    "ZubZet\\Utilities\\PasswordHash\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Zierhut",
+                    "email": "alex@zierhut-it.de"
+                }
+            ],
+            "time": "2022-04-17T20:50:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "zubzet/framework": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.1.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

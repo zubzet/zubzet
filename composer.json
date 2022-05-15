@@ -1,0 +1,51 @@
+{
+    "name": "zubzet/zubzet",
+    "type": "project",
+    "description": "ZubZet PHP Framework",
+    "keywords": [
+        "zubzet",
+        "framework"
+    ],
+    "authors": [{
+        "name": "Alexander Zierhut",
+        "email": "alex@zierhut-it.de",
+        "homepage": "https://alzlper.com"
+    }, {
+        "name": "Adrian Urban",
+        "email": "adrian.urban@zierhut-it.de"
+    }],
+    "license": "GPL-3.0-or-later",
+    "support": {
+        "email": "info@zierhut-it.de",
+        "wiki": "https://docs.zubzet.de"
+    },
+    "require": {
+        "php": "^8.1.0",
+        "zubzet/framework": "@dev"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [],
+        "post-update-cmd": [],
+        "post-root-package-install": []
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [{
+        "type": "path",
+        "url": "../framework",
+        "options": {
+            "symlink": true
+        }
+    }]
+}

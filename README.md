@@ -12,7 +12,7 @@
   <a href="https://zubzet.com/docs"><img alt="Documentation" src="https://img.shields.io/badge/Read-the%20Docs-brightgreen?style=for-the-badge&logo=readthedocs"></a>
   <a href="https://packagist.org/packages/zubzet/framework"><img alt="Latest Release" src="https://img.shields.io/badge/Latest%20Release-Packagist-orange?style=for-the-badge&logo=packagist"></a>
   <a href="https://github.com/zubzet/framework/issues"><img alt="GitHub Issues" src="https://img.shields.io/badge/Report-Issues-yellow?style=for-the-badge&logo=bug"></a>
-  <a href="https://github.com/zubzet/framework/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=open-source-initiative"></a>
+  <a href="https://github.com/zubzet/framework/blob/main/LICENSE"><img alt="APL 2.0 License" src="https://img.shields.io/github/license/zubzet/framework?style=for-the-badge&logo=open-source-initiative"></a>
 </p>
 
 <br>
@@ -36,9 +36,9 @@ The framework follows the **Model-View-Controller** (MVC) pattern, but you don�
 3. **Views** allow you to easily create templates that integrate with your data.
 
 ### **Documentation**
-Looking for step-by-step guides and practical examples? The [ZubZet Documentation](https://zubzet.com/docs/DEV) is the right place to look. It’s packed with tutorials and detailed guides to help you learn the ins and outs of the framework and get started quickly.
+Looking for step-by-step guides and practical examples? The [ZubZet Documentation](https://zubzet.com/docs) is the right place to look. It’s packed with tutorials and detailed guides to help you learn the ins and outs of the framework and get started quickly.
 
 ### **API Reference**
-Dive deep into the technical details. The comprehensive [API Reference](https://zubzet.com/docs/DEV/api) covers every class, method, and parameter to help you customize and extend ZubZet for your specific needs.
+Dive deep into the technical details. The comprehensive [API Reference](https://zubzet.com/docs) covers every class, method, and parameter to help you customize and extend ZubZet for your specific needs.
 
-There’s no need to trade clarity for capability — build something great without getting bogged down by complexity. ZubZet is here to support your ideas, big or small—let’s build something great, together. 
+There’s no need to trade clarity for capability — build something great without getting bogged down by complexity. ZubZet is here to support your ideas, big or small—let’s build something great, together.

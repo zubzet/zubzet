@@ -1,0 +1,32 @@
+{
+    "wrong": {
+        "name": "wrong-user@zubzet.com",
+        "password": "wrong password"
+    },
+
+    "not_activated": {
+        "name": "not-activated@zubzet.com",
+        "password": "password"
+    },
+
+    "admin": {
+        "name": "admin@zubzet.com",
+        "token": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa01"
+    },
+
+    "support": {
+        "name": "support@zubzet.com",
+        "token": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa02"
+    },
+
+    "customer": {
+        "name": "customer@zubzet.com",
+        "token": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa03",
+        "password": "password"
+    },
+
+    "customer_new": {
+        "name": "customer-new@zubzet.com",
+        "token": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa05"
+    }
+}

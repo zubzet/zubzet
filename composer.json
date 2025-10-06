@@ -1,4 +1,10 @@
 {
+    "name": "zubzet/zubzet",
+    "description": "A lightweight PHP framework focused on rapid development, ease of use, and great portability.",
+    "support": {
+        "wiki": "https://zubzet.com/docs"
+    },
+    "license": "APL-2.0-or-later",
     "type": "project",
     "require": {
         "zubzet/framework": "^1.0-RC"

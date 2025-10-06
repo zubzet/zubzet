@@ -1,16 +1,35 @@
 <?php
-    /**
-     * Entrance for the framework. This file should be copied in the root of the project. A .htaccess file should be created which redirects all non-static requests to this file.
-     */
 
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
+    // -----------------------------
+    // Do not change this file as it is the entrypoint for web requests.
+    // -----------------------------
 
-    require_once "../vendor/autoload.php";
+    $calledFromWebroot = true;
 
-    // ZubZet Initialization
-    $app = new ZubZet\Core(root: __DIR__."/..");
-    $app->execute();
+    chdir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR);
+
+    // Try multiple locations for the entry scripts
+    $entryScripts = [
+        "index.php",
+        "zubzet.php",
+        "zubzet",
+    ];
+
+    $entryScriptFound = false;
+
+    foreach($entryScripts as $entryScript) {
+        if(!file_exists($entryScript)) continue;
+
+        require_once $entryScript;
+        $entryScriptFound = true;
+        break;
+    }
+
+    // If no entry script is found, return a 500 error
+    if(!$entryScriptFound) {
+        http_response_code(500);
+        echo "No entry script found.";
+        exit(1);
+    }
 
 ?>

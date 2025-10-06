@@ -4,7 +4,7 @@
     "support": {
         "wiki": "https://zubzet.com/docs"
     },
-    "license": "APL-2.0-or-later",
+    "license": "Apache-2.0-or-later",
     "type": "project",
     "require": {
         "zubzet/framework": "^1.0-RC"
